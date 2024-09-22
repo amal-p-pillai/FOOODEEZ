@@ -1,0 +1,254 @@
+html{
+    scroll-padding-top: 150px;
+}
+#headId{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(248, 243, 243);
+    box-shadow: 0px 4px 2px -2px rgb(39, 38, 38);
+    z-index: 1000;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#headId h1{
+    margin: 0;
+    font-size: 95px;
+    color: black;
+}
+
+#headId nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#headId nav ul li{
+    margin-left: 10px 0;
+}
+#headId  nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    transition: color 0.3s ease;
+}
+#headId  nav ul li a:hover{
+    color: #ff6347;
+}
+
+#bgId{
+    position: relative;
+    background-image: url('./fg img/foodImg3.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+}
+#bgId h4{
+    position: absolute;
+    left: 20px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 12px;
+    border-radius: 5px;
+
+}
+#secId{
+    background-color: rgb(248, 243, 243);
+    padding: 50px;
+    
+}
+#secId h2{
+    margin-bottom: 50px;
+    font-size: 80px;
+    color: black;
+    flex-basis: 30%;
+}
+#menu-div{
+    display: flex;
+    padding-top: 30px;
+    gap: 90px;
+    margin-top: 60px;
+
+}
+#secId panda{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+#secId p{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+    line-height: 1.2;
+    padding-right: 400px; 
+}
+
+
+#secId a{
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: blue;
+    padding: 20px 20px;
+    transition: background-color 0.3s ease;
+    font-size: 25px;
+    width: fit-content;
+
+}
+#secId a:hover{
+    color: #ff6347;
+}
+.menu-images{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.menu-images{
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#aboutSection{
+    padding: 50px;
+    background-color: rgb(131, 167, 128);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#aboutSection h2{
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#aboutSection p{
+    font-size: 25px;
+    margin-left: 100px;
+    max-width: 600px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#aboutSection a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin-left: 100px;
+    width: fit-content;
+    transition: color 0.3s ease;
+}
+#aboutSection a:hover{
+    color: blueviolet;
+}
+
+#moments{
+    padding: 40;
+    background-color: rgb(243, 242, 236);
+
+}
+.foodies-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.foodies-header h2{
+    font-size: 70px;
+
+}
+.insta-follow{
+    display: flex;
+    align-items: center;
+}
+.insta-icon{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.follow-link{
+    font-size: 16px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.follow-link:hover{
+    color: #ff6347;
+}
+#imageSec{
+    display: flexbox;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#imageSec img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0, 0, 0.1);
+}
+
+#footer-id{
+    background-color: rgb(170, 160, 160);
+    padding: 40px;
+    text-align: center;
+    color: black;
+
+}
+#footSec{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+#footSec h4{
+    font-size: 24px;
+    margin: 0;
+    margin-right: 60px;
+}
+#footSec h2{
+    font-size: 80px;
+    margin: 0;
+    position: relative;
+    margin-right: 70px;
+}
+.footer-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.footer-details span{
+    font-size: 14px;
+}
+.footer-details .footer-address{
+    font-size: 14px;
+    text-align: center;
+}
+@media(max-width:600px){
+    .footer-details{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
