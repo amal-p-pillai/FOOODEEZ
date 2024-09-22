@@ -42,7 +42,7 @@ html{
 
 #bgId{
     position: relative;
-    background-image: url('./fg img/foodImg3.png');
+    background-image: url('./foodImg3.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
